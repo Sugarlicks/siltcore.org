@@ -1,2 +1,100 @@
-:root {
-  --bg: #0b0
+:root{
+  --bg: #fbfbf8;
+  --text: #141414;
+  --muted: #4a4a4a;
+  --border: #e7e7e2;
+  --card: #ffffff;
+
+  /* Deep green accent (Pantone 3435 C approx) */
+  --accent: #154734;
+
+  /* Soft geometry */
+  --radius: 18px;
+  --shadow: 0 10px 26px rgba(0,0,0,0.06);
+}
+
+html, body { height: 100%; }
+
+body{
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.wrap{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 64px 22px;
+}
+
+.header{
+  margin-bottom: 18px;
+}
+
+.header h1{
+  margin: 0 0 8px 0;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+}
+
+.subtitle{
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 20px;
+  margin: 18px 0;
+  box-shadow: var(--shadow);
+}
+
+.grid{
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 860px){
+  .grid{ grid-template-columns: 1fr 1fr; }
+}
+
+h2{
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+}
+
+p{ margin: 0; }
+
+ul{
+  margin: 0;
+  padding-left: 18px;
+}
+
+li{
+  margin: 6px 0;
+}
+
+a{
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.footer{
+  margin-top: 34px;
+  color: var(--muted);
+  font-size: 14px;
+}

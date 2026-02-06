@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-NZ">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SILT Core</title>
+    <meta name="description" content="SILT Core is a spec-first identity infrastructure project formalising status, standing, authority, consent, and revocation as enforceable, technology-agnostic primitives." />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="header">
+        <h1>SILT Core</h1>
+        <p class="subtitle">Spec-first identity infrastructure for authority, consent, delegation, and revocation.</p>
+      </header>
+
+      <section class="card">
+        <h2>What it is</h2>
+        <p>
+          SILT Core is a spec-first identity infrastructure project focused on formalising status, standing, authority,
+          consent, and revocation as enforceable, technology-agnostic primitives, drawing on long-standing private-law
+          concepts such as agency, mandate, and reliance. Rather than delivering an application or platform, the project
+          defines a missing semantic layer that many civic, governance, and public-interest systems implicitly depend on
+          but rarely specify, establishing the conditions under which an identity holder is recognised as capable of
+          acting, consenting, or delegating authority. The current work establishes normative specifications, threat
+          models, misuse cases, and minimal validation schemas to make authority and consent explicit, auditable, and
+          revocable by default. Implementation is intentionally deferred. SILT Core is designed to be adopted, critiqued,
+          or extended by multiple downstream implementations across diverse legal and cultural contexts, without locking
+          identity into wallets, platforms, or custodial assumptions.
+        </p>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <h2>What it is not</h2>
+          <ul>
+            <li>Not a wallet, identity app, or credential issuer</li>
+            <li>Not a blockchain protocol or chain-specific framework</li>
+            <li>Not a token model, DAO toolkit, or governance platform</li>
+            <li>Not a replacement for existing identity standards</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Current status</h2>
+          <ul>
+            <li>Specifications and schemas: v0</li>
+            <li>Threat model and misuse cases: published</li>
+            <li>Implementation: intentionally deferred</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Links</h2>
+        <ul>
+          <li><a href="https://github.com/Sugarlicks/silt-identity-core" rel="noopener">GitHub: silt-identity-core</a></li>
+          <li><a href="https://github.com/Sugarlicks/silt-identity-core/tree/main/docs" rel="noopener">Docs and roadmap</a></li>
+          <li><a href="mailto:garethfakhry@gmail.com">Contact</a></li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="y"></span> SILT Core. Open infrastructure, spec-first.</p>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

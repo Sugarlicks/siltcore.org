@@ -1,6 +1,8 @@
 # SILT Core
 
-Specification v0.1 – Draft
+Specification v0.1  
+Status: Draft  
+Scope: Identity infrastructure for modelling authority, consent, delegation, and revocation in digital systems.
 
 SILT Core is a spec-first identity infrastructure project focused on formalising status, standing, authority, consent, delegation, and revocation as enforceable, technology-agnostic primitives.
 

@@ -4,132 +4,162 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>SILT Core</title>
-    <meta name="description" content="SILT Core is a spec-first identity infrastructure project formalising status, standing, authority, consent, and revocation as enforceable, technology-agnostic primitives." />
+    <meta
+      name="description"
+      content="SILT Core is a spec-first identity infrastructure project formalising status, standing, authority, consent, and revocation as enforceable, technology-agnostic primitives."
+    />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <main class="wrap">
       <header class="header">
         <h1>SILT Core</h1>
-       <p class="subtitle">Spec-first identity infrastructure for modelling authority, consent, delegation, and revocation in digital systems.</p>
+        <p class="subtitle">
+          Spec-first identity infrastructure for modelling authority, consent,
+          delegation, and revocation in digital systems.
+        </p>
       </header>
 
       <section class="card">
         <h2>What it is</h2>
         <p>
-          Spec-first infrastructure for modelling authority, consent, delegation, and revocation in digital systems, 
-          drawing on long-standing private-law
-          concepts such as agency, mandate, and reliance. Rather than delivering an application or platform, the project
-          defines a missing semantic layer that many civic, governance, and public-interest systems implicitly depend on
-          but rarely specify, establishing the conditions under which an identity holder is recognised as capable of
-          acting, consenting, or delegating authority. The current work establishes normative specifications, threat
-          models, misuse cases, and minimal validation schemas to make authority and consent explicit, auditable, and
-          revocable by default. Implementation is intentionally deferred. SILT Core is designed to be adopted, critiqued,
-          or extended by multiple downstream implementations across diverse legal and cultural contexts, without locking
-          identity into wallets, platforms, or custodial assumptions.
+          Spec-first infrastructure for modelling authority, consent,
+          delegation, and revocation in digital systems, drawing on
+          long-standing private-law concepts such as agency, mandate, and
+          reliance. Rather than delivering an application or platform, the
+          project defines a missing semantic layer that many civic, governance,
+          and public-interest systems implicitly depend on but rarely specify,
+          establishing the conditions under which an identity holder is
+          recognised as capable of acting, consenting, or delegating authority.
+          The current work establishes normative specifications, threat models,
+          misuse cases, and minimal validation schemas to make authority and
+          consent explicit, auditable, and revocable by default. Implementation
+          is intentionally deferred. SILT Core is designed to be adopted,
+          critiqued, or extended by multiple downstream implementations across
+          diverse legal and cultural contexts, without locking identity into
+          wallets, platforms, or custodial assumptions.
         </p>
-    </p>
 
-<p>
-While many digital identity and governance initiatives focus on identifiers,
-credentials, or data control, digital systems still lack formal primitives for
-modelling authority itself. SILT Core addresses this gap by defining
-interoperable structures for status, standing, delegation, consent and
-revocation, enabling digital systems to represent who is authorised to act,
-on whose behalf, and under what conditions. This authority layer becomes
-increasingly important as digital infrastructure expands to include autonomous
-systems, AI agents, and cross-jurisdictional governance.
-</p>
-
-</section>
+        <p>
+          While many digital identity and governance initiatives focus on
+          identifiers, credentials, or data control, digital systems still lack
+          formal primitives for modelling authority itself. SILT Core addresses
+          this gap by defining interoperable structures for status, standing,
+          delegation, consent and revocation, enabling digital systems to
+          represent who is authorised to act, on whose behalf, and under what
+          conditions. This authority layer becomes increasingly important as
+          digital infrastructure expands to include autonomous systems, AI
+          agents, and cross-jurisdictional governance.
+        </p>
       </section>
-<section class="grid">
-  <div class="card">
-    <h2>Why This Matters for Bitcoin</h2>
-    <p>
-      Bitcoin transactions are acts of authority, not just technical events.
-    </p>
-   
 
-<p>
-Each signature expresses a claim of capacity to act and transfer value. In legal
-terms this resembles long-standing principles from merchant law, where the
-validity of an instrument depends not only on the signature itself but on the
-authority of the signer to bind a person, organisation, or trust.
-</p>
+      <section class="grid">
+        <div class="card">
+          <h2>Why This Matters for Bitcoin</h2>
+          <p>
+            Bitcoin transactions are acts of authority, not just technical
+            events.
+          </p>
 
-<p>
-Every signature expresses intent, responsibility, and consequence...
-</p>
-      Every signature expresses intent, responsibility, and consequence. Yet most Bitcoin wallets
-      treat all signatures as equivalent, collapsing different forms of authority into a single
-      approval moment.
-    </p>
-    <p>
-      In practice, people act in different capacities – personally, as delegates, as stewards, or under
-      temporary or limited authority. When these distinctions are invisible, users make irreversible
-      mistakes, lose funds, or unintentionally bind themselves in ways they did not understand.
-    </p>
-    <p>
-      SILT Core addresses this gap by specifying primitives for capacity, consent, delegation, and
-      revocation. These primitives make authority explicit and auditable without changing Bitcoin itself.
-    </p>
-    <p>
-      This work is not a wallet, protocol, or identity system. It is a design and specification layer
-      that Bitcoin tools can adopt to improve signing clarity, reduce catastrophic error, and better
-      align wallet behaviour with how humans actually understand responsibility.
-    </p>
-  </div>
+          <p>
+            Each signature expresses a claim of capacity to act and transfer
+            value. In legal terms this resembles long-standing principles from
+            merchant law, where the validity of an instrument depends not only
+            on the signature itself but on the authority of the signer to bind a
+            person, organisation, or trust.
+          </p>
 
-  <div class="card">
-    <h2>Why This Matters for Ethereum</h2>
-    <p>
-      Ethereum introduced programmable coordination. Smart contracts allow organisations, treasuries,
-      and governance systems to operate without central platforms.
-    </p>
-    <p>
-      Yet most Ethereum systems still rely on simplified identity assumptions. A wallet address signs
-      a transaction, a multisig controls funds, or a token represents voting power.
-    </p>
-    <p>
-      These mechanisms execute rules, but they rarely model the deeper semantics of authority.
-    </p>
-    <p>
-      A signature does not tell us in what capacity an actor is acting, whether authority is delegated
-      or original, what scope that delegation has, when that authority expires, or how it may be revoked.
-    </p>
-    <p>
-      SILT introduces a semantic layer that makes authority explicit. It formalises capacity, mandate,
-      consent, and revocation so that digital systems can model how an actor is authorised to act, not
-      just whether a key signed a transaction.
-    </p>
-    <p>
-      Ethereum provides programmable execution. SILT provides the authority grammar that makes execution legitimate.
-    </p>
-  </div>
-</section>
+          <p>
+            Every signature expresses intent, responsibility, and consequence.
+            Yet most Bitcoin wallets treat all signatures as equivalent,
+            collapsing different forms of authority into a single approval
+            moment.
+          </p>
+
+          <p>
+            In practice, people act in different capacities – personally, as
+            delegates, as stewards, or under temporary or limited authority.
+            When these distinctions are invisible, users make irreversible
+            mistakes, lose funds, or unintentionally bind themselves in ways
+            they did not understand.
+          </p>
+
+          <p>
+            SILT Core addresses this gap by specifying primitives for capacity,
+            consent, delegation, and revocation. These primitives make
+            authority explicit and auditable without changing Bitcoin itself.
+          </p>
+
+          <p>
+            This work is not a wallet, protocol, or identity system. It is a
+            design and specification layer that Bitcoin tools can adopt to
+            improve signing clarity, reduce catastrophic error, and better
+            align wallet behaviour with how humans actually understand
+            responsibility.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Why This Matters for Ethereum</h2>
+          <p>
+            Ethereum introduced programmable coordination. Smart contracts
+            allow organisations, treasuries, and governance systems to operate
+            without central platforms.
+          </p>
+          <p>
+            Yet most Ethereum systems still rely on simplified identity
+            assumptions. A wallet address signs a transaction, a multisig
+            controls funds, or a token represents voting power.
+          </p>
+          <p>
+            These mechanisms execute rules, but they rarely model the deeper
+            semantics of authority.
+          </p>
+          <p>
+            A signature does not tell us in what capacity an actor is acting,
+            whether authority is delegated or original, what scope that
+            delegation has, when that authority expires, or how it may be
+            revoked.
+          </p>
+          <p>
+            SILT introduces a semantic layer that makes authority explicit. It
+            formalises capacity, mandate, consent, and revocation so that
+            digital systems can model how an actor is authorised to act, not
+            just whether a key signed a transaction.
+          </p>
+          <p>
+            Ethereum provides programmable execution. SILT provides the
+            authority grammar that makes execution legitimate.
+          </p>
+        </div>
+      </section>
+
       <section class="card">
-  <h2>Why This Matters for AI Systems</h2>
-  <p>
-    Modern AI systems increasingly operate as delegated actors within digital environments.
-    They schedule actions, execute transactions, manage information flows, and interact with
-    institutional systems on behalf of humans or organisations.
-  </p>
-  <p>
-    As these systems become more agentic, the central question is no longer only what they can do,
-    but under what authority they are permitted to act.
-  </p>
-  <p>
-    Most digital infrastructure can represent identities, accounts, or permissions, yet rarely
-    models the deeper structure of lawful action: capacity, mandate, consent, delegation, and
-    revocation.
-  </p>
-  <p>
-    SILT Core explores whether these authority relationships can be expressed as machine-readable
-    primitives. By making acting capacity and delegation explicit, digital systems may support
-    safer forms of automated and AI-mediated action.
-  </p>
-</section>
+        <h2>Why This Matters for AI Systems</h2>
+        <p>
+          Modern AI systems increasingly operate as delegated actors within
+          digital environments. They schedule actions, execute transactions,
+          manage information flows, and interact with institutional systems on
+          behalf of humans or organisations.
+        </p>
+        <p>
+          As these systems become more agentic, the central question is no
+          longer only what they can do, but under what authority they are
+          permitted to act.
+        </p>
+        <p>
+          Most digital infrastructure can represent identities, accounts, or
+          permissions, yet rarely models the deeper structure of lawful action:
+          capacity, mandate, consent, delegation, and revocation.
+        </p>
+        <p>
+          SILT Core explores whether these authority relationships can be
+          expressed as machine-readable primitives. By making acting capacity
+          and delegation explicit, digital systems may support safer forms of
+          automated and AI-mediated action.
+        </p>
+      </section>
+
       <section class="grid">
         <div class="card">
           <h2>What it is not</h2>
@@ -150,22 +180,36 @@ Every signature expresses intent, responsibility, and consequence...
           </ul>
         </div>
       </section>
-</section>
 
-<p>
-SILT Core explores the authority layer of digital infrastructure – the primitives required for digital systems to represent who is authorised to act, under what conditions, and with what consequences.
-</p>
+      <section class="card">
+        <p>
+          SILT Core explores the authority layer of digital infrastructure – the
+          primitives required for digital systems to represent who is authorised
+          to act, under what conditions, and with what consequences.
+        </p>
+      </section>
 
-</main>
-     <section class="card">
-  <h2>Links</h2>
-  <ul>
-    <li><a href="https://github.com/Sugarlicks/silt-identity-core" rel="noopener">GitHub repository</a></li>
-    <li><a href="https://github.com/Sugarlicks/silt-identity-core/tree/main/spec" rel="noopener">Specification drafts</a></li>
-    <li><a href="https://github.com/Sugarlicks/silt-identity-core/tree/main/docs" rel="noopener">Documentation</a></li>
-    <li><a href="mailto:garethfakhry@gmail.com">Contact</a></li>
-  </ul>
-</section>
+      <section class="card">
+        <h2>Links</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/Sugarlicks/silt-identity-core" rel="noopener">
+              GitHub repository
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Sugarlicks/silt-identity-core/tree/main/spec" rel="noopener">
+              Specification drafts
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Sugarlicks/silt-identity-core/tree/main/docs" rel="noopener">
+              Documentation
+            </a>
+          </li>
+          <li><a href="mailto:garethfakhry@gmail.com">Contact</a></li>
+        </ul>
+      </section>
 
       <footer class="footer">
         <p>© <span id="y"></span> SILT Core. Open infrastructure, spec-first.</p>

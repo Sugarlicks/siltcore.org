@@ -20,6 +20,66 @@
         </p>
       </header>
 
+      <section>
+  <h2>SILT Core v0.1 – Semantic Layer Definition</h2>
+  <p>
+    Initial public specification of SILT Core, defining capacity, authority,
+    consent, and revocation as preconditions for action.
+  </p>
+  <p>
+    <a href="https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.1" target="_blank" rel="noopener">
+      View Release →
+    </a>
+  </p>
+
+  <p>
+    <em>
+      Systems can satisfy every authorisation check and still enable illegitimate
+      action, because capacity and authority are not expressed at the point of
+      execution.
+    </em>
+  </p>
+</section>
+
+<section>
+  <h2>Where SILT sits</h2>
+  <p>Most digital systems follow a simple structure:</p>
+  <ul>
+    <li>Identity → who is acting</li>
+    <li>Credentials → what can be proven</li>
+    <li>Policy → what is allowed</li>
+  </ul>
+
+  <p>SILT introduces a missing layer between credentials and policy:</p>
+  <ul>
+    <li>Capacity → how the actor is acting</li>
+    <li>Authority → under what mandate</li>
+    <li>Consent → under what conditions</li>
+    <li>Revocation → whether that authority still holds</li>
+  </ul>
+
+  <p>
+    SILT does not decide what actions are permitted.
+    It determines whether an actor is in a position to act at all.
+  </p>
+</section>
+
+<section>
+  <h2>Why this matters</h2>
+  <p>
+    Digital systems are increasingly capable of executing actions automatically
+    through APIs, smart contracts, and AI agents.
+  </p>
+  <p>
+    Without explicit models of capacity and authority, these systems rely on
+    implicit assumptions about who is allowed to act and why.
+  </p>
+  <p>
+    SILT makes those conditions explicit, so that actions can be evaluated not
+    only for correctness, but for legitimacy.
+  </p>
+</section>
+
       <section class="card">
         <h2>What it is</h2>
         <p>
@@ -215,6 +275,19 @@
       <footer class="footer">
         <p>© <span id="y"></span> SILT Core. Open infrastructure, spec-first.</p>
       </footer>
+
+      <section>
+  <p>
+    SILT Core is currently being developed as a specification-first framework.
+    Further work is underway to deepen the legal and conceptual grounding of
+    this layer.
+  </p>
+  <p>
+    <a href="https://github.com/Sugarlicks/silt-identity-core" target="_blank" rel="noopener">
+      Explore the Spec →
+    </a>
+  </p>
+</section>
     </main>
 
     <script>

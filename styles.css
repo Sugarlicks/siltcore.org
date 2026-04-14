@@ -26,16 +26,10 @@ body{
   text-rendering: optimizeLegibility;
 }
 
+/* Layout */
+
 .wrap{
   max-width: 900px;
-
-  .release-box {
-  border: 1px solid #ddd;
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  margin: 30px 0;
-}
   margin: 0 auto;
   padding: 64px 22px;
 }
@@ -56,6 +50,19 @@ body{
   font-size: 16px;
 }
 
+/* Release box (FIXED) */
+
+.release-box{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 20px;
+  margin: 24px 0;
+  box-shadow: var(--shadow);
+}
+
+/* Cards */
+
 .card{
   background: var(--card);
   border: 1px solid var(--border);
@@ -64,6 +71,8 @@ body{
   margin: 18px 0;
   box-shadow: var(--shadow);
 }
+
+/* Grid */
 
 .grid{
   display: grid;
@@ -75,13 +84,17 @@ body{
   .grid{ grid-template-columns: 1fr 1fr; }
 }
 
+/* Typography */
+
 h2{
   margin: 0 0 12px 0;
   font-size: 18px;
   letter-spacing: -0.01em;
 }
 
-p{ margin: 0; }
+p{
+  margin: 0;
+}
 
 ul{
   margin: 0;
@@ -92,6 +105,19 @@ li{
   margin: 6px 0;
 }
 
+/* Fix vertical spacing between elements */
+
+.release-box p + p,
+.release-box p + ul,
+.release-box ul + p,
+section p + p,
+section p + ul,
+section ul + p{
+  margin-top: 12px;
+}
+
+/* Links */
+
 a{
   color: var(--accent);
   text-decoration: none;
@@ -100,6 +126,8 @@ a{
 a:hover{
   text-decoration: underline;
 }
+
+/* Footer */
 
 .footer{
   margin-top: 34px;

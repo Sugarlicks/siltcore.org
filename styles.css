@@ -28,6 +28,14 @@ body{
 
 .wrap{
   max-width: 900px;
+
+  .release-box {
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 30px 0;
+}
   margin: 0 auto;
   padding: 64px 22px;
 }

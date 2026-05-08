@@ -15,8 +15,8 @@
       <header class="header">
         <h1>SILT Core</h1>
         <p class="subtitle">
-          Spec-first identity infrastructure for modelling authority, consent,
-          delegation, and revocation in digital systems.
+         Open semantic infrastructure for modelling authority, capacity,
+  consent, delegation, and revocation in digital systems.
         </p>
       </header>
 
@@ -24,10 +24,18 @@
 <section class="release-box">
   <h2>SILT Core v0.1 – Semantic Layer Definition</h2>
 
-  <p>
-    Initial public specification of SILT Core, defining capacity, authority,
-    consent, and revocation as preconditions for action.
-  </p>
+ <p>
+  Initial public specification of SILT Core, defining capacity,
+  authority, consent, and revocation as preconditions for legitimate
+  digital action.
+</p>
+
+<p>
+  SILT Core is designed as an open, implementation-neutral semantic
+  layer. It does not replace DID, VC, zCap, wallet, DAO, or AI-agent
+  frameworks. It defines authority semantics that such systems may
+  adopt, reference, or extend.
+</p>
 
   <p>
     <a href="https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.1" target="_blank" rel="noopener">
@@ -82,48 +90,66 @@
     only for correctness, but for legitimacy.
   </p>
 </section>
-     <section class="card">
+    <section class="card">
   <h2>What it is</h2>
 
   <p>
-    SILT Core is a spec-first framework for modelling authority, consent,
-    delegation, and revocation in digital systems, drawing on long-standing
-    private-law concepts such as agency, mandate, and reliance.
+    SILT Core is a specification-first framework for modelling authority,
+    capacity, consent, delegation, reliance, and revocation in digital
+    systems.
   </p>
 
   <p>
-    Rather than delivering an application or platform, it defines a missing
-    semantic layer that many civic, governance, and public-interest systems
-    implicitly depend on but rarely specify: the conditions under which an
-    identity holder is recognised as capable of acting, consenting, or
-    delegating authority.
+    Rather than delivering an application, wallet, or platform, SILT Core
+    defines a semantic layer that many civic, governance, commercial, and
+    agentic systems implicitly depend on but rarely specify: the
+    conditions under which an actor is authorised to act, bind, delegate,
+    rely, or revoke.
   </p>
 
   <p>
-    The current work establishes normative specifications, threat models,
-    misuse cases, and minimal validation schemas to make authority and consent
-    explicit, auditable, and revocable by default. Implementation is
-    intentionally deferred.
+    SILT Core draws on long-standing concepts from agency, mandate,
+    private law, governance, and digital identity, but expresses them as
+    technology-agnostic primitives suitable for modern systems.
   </p>
 
   <p>
-    SILT Core is designed to be adopted, critiqued, or extended across diverse
-    legal and cultural contexts, without locking identity into wallets,
-    platforms, or custodial assumptions.
+    The current work establishes specifications, threat models, misuse
+    cases, and minimal validation schemas. Implementation is intentionally
+    deferred so the core grammar can remain open, portable, and
+    interoperable.
+  </p>
+</section>
+  <section class="card">
+  <h2>Interoperability</h2>
+
+  <p>
+    SILT Core is designed to complement existing identity and
+    coordination frameworks rather than replace them.
   </p>
 
   <p>
-    While many digital identity and governance approaches focus on identifiers,
-    credentials, or data control, they do not define authority itself. SILT Core
-    addresses this gap by establishing interoperable primitives for status,
-    standing, delegation, consent, and revocation, enabling systems to represent
-    who is authorised to act, on whose behalf, and under what conditions.
+    DID and VC systems can express identifiers and attestations.
+    Capability systems such as zCaps can express delegated permissions.
+    Wallets, DAOs, and AI-agent frameworks can execute actions.
   </p>
 
   <p>
-    This layer becomes increasingly important as digital infrastructure expands
-    to include autonomous systems, AI agents, and cross-jurisdictional
-    governance.
+    SILT Core focuses on the missing semantic question beneath these
+    systems:
+  </p>
+
+  <p>
+    <em>
+      In what capacity is this actor acting, under what authority,
+      within what scope, and how can that authority be revoked?
+    </em>
+  </p>
+
+  <p>
+    This makes SILT Core relevant to DID/VC, ZK, ENS, DAO governance,
+    AI-agent systems, and institutional workflows without requiring any
+    single implementation path.
   </p>
 </section>
 
@@ -247,20 +273,29 @@
 
         <div class="card">
           <h2>Current status</h2>
-          <ul>
+        <ul>
   <li>Specifications and schemas: v0.1 released as a versioned baseline</li>
   <li>Threat model and misuse cases: published and embedded in the core model</li>
+  <li>Interoperability: exploratory mapping toward DID/VC, capability systems, DAOs, and AI-agent frameworks</li>
   <li>Implementation: intentionally deferred; iteration through external adoption</li>
 </ul>
         </div>
       </section>
 
-     <section class="card">
-  <h2>Authority layer</h2>
+    <section class="card">
+  <h2>Open infrastructure</h2>
+
   <p>
-    SILT Core explores the authority layer of digital infrastructure – the
-    primitives required for digital systems to represent who is authorised
-    to act, under what conditions, and with what consequences.
+    SILT Core is developed as open semantic infrastructure. Core
+    specifications, schemas, and threat models are intended to remain
+    publicly accessible so they can be adopted, tested, criticised, and
+    extended across ecosystems.
+  </p>
+
+  <p>
+    Downstream implementations, assurance methods, certification layers,
+    and high-integrity validation services may evolve separately from the
+    open core.
   </p>
 </section>
 
@@ -282,6 +317,11 @@
               Documentation
             </a>
           </li>
+          <li>
+  <a href="https://paragraph.com/@garethfarry" rel="noopener">
+    Essays & research on authority, identity, and lawful digital action
+  </a>
+</li>
           <li><a href="mailto:garethfakhry@gmail.com">Contact</a></li>
         </ul>
       </section>
@@ -291,11 +331,12 @@
       </footer>
 
      <section class="card">
-  <p>
-    SILT Core is currently being developed as a specification-first framework.
-    Further work is underway to deepen the legal and conceptual grounding of
-    this layer.
-  </p>
+<p>
+  SILT Core is currently being developed as an open
+  specification-first framework. Further work is underway to refine the
+  semantic layer, expand interoperability mappings, and explore
+  downstream implementation pathways.
+</p>
   <p>
     <a href="https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.1" target="_blank" rel="noopener">
       View on GitHub →

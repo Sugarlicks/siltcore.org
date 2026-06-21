@@ -95,40 +95,65 @@
 
 <section class="card">
   <h2>Where SILT sits</h2>
-  <p>Most digital systems follow a simple structure:</p>
-  <ul>
-    <li>Identity → who is acting</li>
-    <li>Credentials → what can be proven</li>
-    <li>Policy → what is allowed</li>
-  </ul>
 
-  <p>SILT introduces a missing layer between credentials and policy:</p>
+  <p>
+    Most digital systems follow this structure:
+  </p>
+
   <ul>
-    <li>Capacity → how the actor is acting</li>
-    <li>Authority → under what mandate</li>
-    <li>Consent → under what conditions</li>
-    <li>Revocation → whether that authority still holds</li>
+    <li>Identification → who is this?</li>
+    <li>Attestation → what can be proven?</li>
+    <li>Policy → what is permitted?</li>
+    <li>Execution → what happens?</li>
   </ul>
 
   <p>
-    SILT does not decide what actions are permitted.
-    It determines whether an actor is in a position to act at all, under valid authority.
+    SILT introduces the missing semantic layer between attestation,
+    policy, and execution:
+  </p>
+
+  <p>
+    What does this person, collective, institution, or agent carry into this
+    moment of action — under what authority, in what capacity, subject to
+    what obligations, and under what conditions may others rely on it?
+  </p>
+
+  <p>
+    Without this layer, systems can satisfy every authorisation check and
+    still enable illegitimate action.
   </p>
 </section>
 
 <section class="card">
   <h2>Why this matters</h2>
+
   <p>
-    Digital systems are increasingly capable of executing actions automatically
-    through APIs, smart contracts, and AI agents.
+    Digital systems are becoming more autonomous. The internet is shifting
+    from pages, accounts, and apps toward agents, workflows, protocols,
+    and automated execution.
   </p>
+
   <p>
-    Without explicit models of capacity and authority, these systems rely on
-    implicit assumptions about who is allowed to act and why.
+    This creates a new legitimacy problem.
   </p>
+
   <p>
-    SILT makes those conditions explicit, so that actions can be evaluated not
-    only for correctness, but for legitimacy.
+    A system may be authenticated but acting in the wrong capacity.<br />
+    A workflow may treat consent as permanent when it was conditional.<br />
+    An agent may execute after authority has expired.<br />
+    A delegated action may persist after revocation.<br />
+    A signature may bind a party beyond the scope of their mandate.
+  </p>
+
+  <p>
+    These are not only technical failures. They are legitimacy failures.
+  </p>
+
+  <p>
+    SILT Core is relevant wherever digital systems need authority to be
+    explicit before execution — across legal automation, AI-agent workflows,
+    DAO governance, digital commerce, institutional approval flows, civic
+    infrastructure, and consent-sensitive data systems.
   </p>
 </section>
     <section class="card">

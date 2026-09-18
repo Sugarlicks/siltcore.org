@@ -1,13 +1,12 @@
-
 <!doctype html>
 <html lang="en-NZ">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>SILT Core — Authority Semantics for Digital Action</title>
+    <title>SILT Core — Semantic Infrastructure for Plural Encounters</title>
     <meta
       name="description"
-      content="SILT Core is a specification-first semantic layer for expressing capacity, authority source, mandate scope, consent, reliance, delegation, and revocation across digital systems."
+      content="SILT Core v0.2 is a semantic architecture for making plural legal, customary, cultural, private, institutional and technical orders mutually legible at moments of encounter without collapsing them into a single ontology."
     />
     <link rel="stylesheet" href="/styles.css" />
   </head>
@@ -15,399 +14,268 @@
     <main class="wrap">
       <header class="header">
         <h1>SILT Core</h1>
-        <p class="subtitle">Authority semantics for digital action.</p>
+        <p class="subtitle">Semantic infrastructure for plural encounters.</p>
       </header>
 
-    
-  <section class="release-box">
-    <p>
-      Current digital systems are built on a hidden assumption:
-      legitimacy flows from external validation.
-    </p>
-
-    <p>
-      A government issues your identity.<br />
-      A credential authority attests your attributes.<br />
-      A platform recognises your account.<br />
-      A system grants your permissions.
-    </p>
-
-    <p>
-      You exist, digitally, to the extent that external systems confirm you.
-    </p>
-
-    <p>
-      SILT begins from the other direction.
-    </p>
-
-    <p>
-      What a person, collective, institution, or agent carries into a moment
-      of digital action — standing, authority source, mandate, obligation,
-      consent, reliance, and revocation — does not begin with system
-      recognition. It precedes it.
-    </p>
-
-    <p>
-      Current infrastructure has no stable grammar for this. It can model
-      who you are, what attributes you hold, and what permissions you have
-      been granted. It cannot model what you bring into an action, in what
-      capacity you are acting, by whose authority, under what mandate, and
-      whether others may safely rely on the act.
-    </p>
-
-    <p>
-      SILT builds that grammar.
-    </p>
-  </section>
-
-    
-
-<section class="release-box">
-  <h2>SILT Core v0.1 – Semantic Layer Definition</h2>
-
- <p>
-  Initial public specification of SILT Core, defining capacity,
-  authority, consent, and revocation as preconditions for legitimate
-  digital action.
-</p>
-
-<p>
-  SILT Core is designed as an open, implementation-neutral semantic
-  layer. It does not replace DID, VC, zCap, wallet, DAO, or AI-agent
-  frameworks. It defines authority semantics that such systems may
-  adopt, reference, or extend.
-</p>
-
-  <p>
-    <a href="https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.1" target="_blank" rel="noopener">
-      View Release →
-    </a>
-  </p>
-
-  <p>
-    <em>
-      Systems can satisfy every authorisation check and still enable illegitimate
-      action, because capacity and authority are not expressed at the point of
-      execution.
-    </em>
-  </p>
-</section>
-
-<section class="card">
-  <h2>Where SILT sits</h2>
-
-  <p>
-    Most digital systems follow this structure:
-  </p>
-
-  <ul>
-    <li>Identification → who is this?</li>
-    <li>Attestation → what can be proven?</li>
-    <li>Policy → what is permitted?</li>
-    <li>Execution → what happens?</li>
-  </ul>
-
-  <p>
-    SILT introduces the missing semantic layer between attestation,
-    policy, and execution:
-  </p>
-
-  <p>
-    What does this person, collective, institution, or agent carry into this
-    moment of action — under what authority, in what capacity, subject to
-    what obligations, and under what conditions may others rely on it?
-  </p>
-
-  <p>
-    Without this layer, systems can satisfy every authorisation check and
-    still enable illegitimate action.
-  </p>
-</section>
-
-<section class="card">
-  <h2>Why this matters</h2>
-
-  <p>
-    Digital systems are becoming more autonomous. The internet is shifting
-    from pages, accounts, and apps toward agents, workflows, protocols,
-    and automated execution.
-  </p>
-
-  <p>
-    This creates a new legitimacy problem.
-  </p>
-
-  <p>
-    A system may be authenticated but acting in the wrong capacity.<br />
-    A workflow may treat consent as permanent when it was conditional.<br />
-    An agent may execute after authority has expired.<br />
-    A delegated action may persist after revocation.<br />
-    A signature may bind a party beyond the scope of their mandate.
-  </p>
-
-  <p>
-    These are not only technical failures. They are legitimacy failures.
-  </p>
-
-  <p>
-    SILT Core is relevant wherever digital systems need authority to be
-    explicit before execution — across legal automation, AI-agent workflows,
-    DAO governance, digital commerce, institutional approval flows, civic
-    infrastructure, and consent-sensitive data systems.
-  </p>
-</section>
-      
-     <section class="card">
-  <h2>What it is</h2>
-
-  <p>
-    SILT Core is a specification-first framework for modelling authority,
-    capacity, consent, delegation, reliance, and revocation in digital
-    systems.
-  </p>
-
-  <p>
-    Rather than delivering an application, wallet, or platform, SILT Core
-    defines a semantic layer that many civic, governance, commercial, and
-    agentic systems implicitly depend on but rarely specify: the
-    conditions under which an actor is authorised to act, bind, delegate,
-    rely, or revoke.
-  </p>
-
-  <p>
-    SILT Core draws on long-standing concepts from agency, mandate,
-    private law, governance, and digital identity, but expresses them as
-    technology-agnostic primitives suitable for modern systems.
-  </p>
-
-  <p>
-    The current work establishes specifications, threat models, misuse
-    cases, and minimal validation schemas. Implementation is intentionally
-    deferred so the core grammar can remain open, portable, and
-    interoperable.
-  </p>
-</section>
-<section class="card">
-  <h2>Interoperability</h2>
-
-  <p>
-    SILT Core is designed to complement existing identity and
-    coordination frameworks rather than replace them.
-  </p>
-
-  <p>
-    DID and VC systems can express identifiers and attestations.<br />
-    Capability systems can express delegated permissions.<br />
-    Wallets can sign.<br />
-    DAOs can coordinate.<br />
-    Smart contracts can execute rules.<br />
-    AI-agent frameworks can automate action.
-  </p>
-
-  <p>
-    SILT Core focuses on the missing semantic question beneath these
-    systems:
-  </p>
-
-  <p>
-    <em>
-      In what capacity is this action being taken, under what authority,
-      within what scope, with what consent, and with what revocation
-      conditions?
-    </em>
-  </p>
-
-  <p>
-    This makes SILT Core relevant to DID/VC, ZK, capability systems,
-    DAO governance, AI-agent systems, legal workflows, digital commerce,
-    and institutional coordination without requiring any single
-    implementation path.
-  </p>
-</section>
-
-           <section class="card">
-        <h2>Cryptographic and programmable systems</h2>
+      <section class="release-box">
+        <h2>SILT Core v0.2 — semantic architecture finalised</h2>
 
         <p>
-          Cryptographic systems are powerful because they can verify control,
-          signatures, execution, and state.
+          SILT Core provides a semantic architecture through which participants,
+          collectives and systems operating under different legal, cultural,
+          customary, private, institutional or technical orders may become
+          mutually legible at moments of encounter without requiring those orders
+          to collapse into a single ontology or surrender their own sources of
+          authority.
+        </p>
+
+        <p><strong>SILT is concerned with encounter rather than assimilation.</strong></p>
+
+        <p>
+          <strong>Source → Standing → Presentation → evaluation at the encounter</strong>
         </p>
 
         <p>
-          But control is not the same as authority.
-        </p>
-
-        <p>
-          A wallet signature proves that a key approved something.<br />
-          A smart contract proves that execution followed code.<br />
-          A multisig proves that a threshold was met.<br />
-          A token vote proves that a voting rule was satisfied.
-        </p>
-
-        <p>
-          None of these necessarily proves that the action was taken in the
-          right capacity, under the right mandate, within scope, or with
-          authority still active.
-        </p>
-
-        <p>
-          This matters across Bitcoin, Ethereum, DAO governance, digital
-          commerce, programmable settlement, and wallet-based workflows.
-        </p>
-
-        <p>
-          SILT Core does not change Bitcoin, Ethereum, or any other
-          cryptographic system.
-        </p>
-
-        <p>
-          It provides an authority grammar that tools, wallets, protocols,
-          and governance systems may adopt where authority needs to be
-          explicit before action.
+          The v0.2 semantic architecture has completed its pre-freeze stress tests
+          and is now frozen. Release packaging, repository migration and publication
+          are underway.
         </p>
       </section>
 
-              <section class="card">
-        <h2>AI systems</h2>
+      <section class="card">
+        <h2>The encounter</h2>
 
         <p>
-          Modern AI systems increasingly operate as delegated participants
-          within digital environments.
+          A Participant arrives from somewhere. SILT does not reduce that
+          “somewhere” to an issuer, registry or credential authority. It is
+          represented through <strong>Source</strong>.
         </p>
 
         <p>
-          They schedule actions, execute transactions, manage information
-          flows, initiate workflows, interact with institutional systems, and
-          may create downstream actions through other tools or agents.
+          From Source arises or is grounded a relational position:
+          <strong>Standing</strong>. Standing is relational and Source-grounded. It
+          is not a universal credential, a platform status, or a self-certified
+          badge.
         </p>
 
         <p>
-          As these systems become more agentic, the central question is no
-          longer only what they can do.
+          For a particular encounter, the Participant need not reveal the whole
+          relationship. Instead, the Participant makes a bounded, present-tense
+          projection: <strong>Presentation</strong>.
         </p>
 
         <p>
-          The deeper question is:
-        </p>
-
-        <p>
-          <em>
-            Under what authority are they acting?
-          </em>
-        </p>
-
-        <p>
-          Most digital infrastructure can represent identities, accounts,
-          credentials, or permissions. It rarely models the deeper structure
-          of lawful action: capacity, mandate, consent, delegation, reliance,
-          and revocation.
-        </p>
-
-        <p>
-          SILT Core explores how these authority relationships can be expressed
-          as machine-readable primitives.
-        </p>
-
-        <p>
-          An agent with a wallet is not the same thing as an agent with standing.
+          Evaluation then occurs at the encounter. The receiving Participant,
+          order or system may evaluate what has been presented without becoming
+          the source of the Standing it encounters.
         </p>
       </section>
 
-           <section class="grid">
+      <section class="card">
+        <h2>Profile Expression</h2>
+
+        <p>
+          An encounter may also receive one or more
+          <strong>Profile Expressions</strong>: bounded, selective and non-exhaustive
+          expressions of the semantic conditions relevant to evaluation.
+        </p>
+
+        <p>
+          A Profile Expression may arise from a legal, customary, cultural,
+          relational, contractual, institutional, governance or other normative
+          context. It does not represent or exhaust that context. The originating
+          substrate remains prior to, independent of, and unencumbered by the
+          expression.
+        </p>
+
+        <p>
+          Presentation and Profile Expression are therefore distinct.
+          Presentation is what a Participant brings into the encounter. Profile
+          Expression states encounter-relevant conditions under which that
+          Presentation may be evaluated.
+        </p>
+
+        <p>
+          Multiple Profile Expressions may coexist or conflict. SILT does not
+          silently merge, rank or universalise them.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>What v0.2 evaluates</h2>
+
+        <p>
+          Evaluation may concern Standing and, where relevant, Evidence,
+          Authority, Consent, Reliance, Action, Attribution, Revocation and
+          Obligation.
+        </p>
+
+        <p>
+          For each evaluated semantic condition, SILT uses three outcomes:
+          <strong>SATISFIED</strong>, <strong>NOT_SATISFIED</strong>, or
+          <strong>INDETERMINATE</strong>.
+        </p>
+
+        <p>
+          INDETERMINATE is a legitimate result. SILT does not manufacture an
+          answer by importing an unstated legal, institutional, cultural or
+          normative rule. Where a condition cannot be adequately expressed
+          without material distortion, it need not be forced into evaluation.
+        </p>
+
+        <p>
+          SILT also does not infer a single aggregate result unless the relevant
+          Profile Expression supplies a composition rule.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Where SILT sits</h2>
+
+        <p><strong>Semantically thick. Operationally thin.</strong></p>
+
+        <p>
+          SILT standardises the boundary at which relational legitimacy becomes
+          selectively legible across systems. It does not attempt to standardise
+          the originating ontology or normative order itself.
+        </p>
+
+        <p>
+          Authentication, credential formats, key management, transport,
+          registries, runtime policy, dynamic authorisation, technical capability
+          systems and execution machinery remain below or adjacent to the SILT
+          semantic layer.
+        </p>
+
+        <p>
+          DID/VC systems may carry identifiers and attestations. Capability
+          systems may express technical permissions. Wallets may sign. Policy
+          engines may decide. Agents and smart contracts may execute. SILT
+          preserves the semantic thread that explains what those actions mean in
+          context.
+        </p>
+
+        <p><em>Semantic hand-off, not semantic surrender.</em></p>
+      </section>
+
+      <section class="card">
+        <h2>Why this matters</h2>
+
+        <p>
+          Digital systems increasingly connect actors who do not share one source
+          of law, authority, identity or legitimacy. That includes Indigenous and
+          customary orders, private agreements, institutions, commercial systems,
+          DAOs, AI agents and technical protocols.
+        </p>
+
+        <p>
+          The hard problem is not simply identifying everyone or granting more
+          permissions. It is preserving enough meaning at the boundary for an
+          encounter to proceed without requiring one order to absorb the other.
+        </p>
+
+        <p>
+          SILT makes that boundary explicit: where Standing comes from, what is
+          Presented, which conditions apply, what Authority exists, what may be
+          relied upon, what obligations persist, and what happens when authority
+          or consent is revoked.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>AI and delegated systems</h2>
+
+        <p>
+          AI agents may act through recursive delegation chains, but technical
+          capability does not itself establish Standing or Authority.
+        </p>
+
+        <p>
+          SILT does not attempt to make AI systems legal persons. It provides a
+          semantic grammar through which authority provenance, scope, reliance,
+          attribution, obligation and revocation can remain legible as actions move
+          across human, institutional and machine systems.
+        </p>
+
+        <p>
+          An agent with a wallet is not the same thing as an agent with Standing.
+        </p>
+      </section>
+
+      <section class="grid">
         <div class="card">
           <h2>What SILT Core is not</h2>
           <ul>
-            <li>Not a wallet, identity app, or credential issuer</li>
-            <li>Not a blockchain protocol or chain-specific framework</li>
-            <li>Not a token model, DAO toolkit, or governance platform</li>
-            <li>Not a replacement for DID, VC, zCap, or other identity standards</li>
-            <li>Not a legaltech-only product</li>
-            <li>Not a replacement for legal advice</li>
-            <li>Not a universal law code or claim that code is law</li>
+            <li>Not a universal identity model</li>
+            <li>Not a universal legal ontology</li>
+            <li>Not a universal authorisation engine</li>
+            <li>Not a credential or DID/VC replacement</li>
+            <li>Not a conflict-of-laws system or universal verifier</li>
+            <li>Not a law engine or universal adjudicator</li>
+            <li>Not a universal method for defining personhood, collective representation, Binding or liability</li>
           </ul>
         </div>
 
         <div class="card">
           <h2>Status</h2>
           <ul>
-            <li>v0.1 has been released as the initial public specification and framing layer</li>
-            <li>v0.1 establishes the initial semantic layer, core primitives, machine-readable schemas, threat model, misuse-case test vectors, and an experimental reference consent validator</li>
-            <li>The reference consent validator is non-normative and does not constrain future v0.2 schema design</li>
-            <li>v0.2 is being planned</li>
-            <li>Candidate v0.2 areas include structured authority claims, expanded primitive definitions, revocation semantics, validation logic, AI-agent execution contexts, legal and governance workflow examples, digital commerce examples, DID/VC interoperability mapping, and plural authority-source modelling</li>
+            <li>v0.1 remains the currently tagged public release</li>
+            <li>v0.2 semantic architecture is finalised and frozen</li>
+            <li>Source → Standing → Presentation → evaluation at the encounter is the settled architectural seam</li>
+            <li>Profile Expression is the bounded encounter-relevant expression construct</li>
+            <li>Release packaging and migration of public specification materials are underway</li>
           </ul>
         </div>
       </section>
 
-         <section class="card">
+      <section class="card">
         <h2>Open infrastructure</h2>
 
         <p>
-          SILT Core is developed as open semantic infrastructure.
+          SILT Core is developed as open semantic infrastructure. The Core is
+          intended to remain implementation-neutral so that different legal,
+          cultural, institutional and technical systems can adopt or test the
+          grammar without being forced into one platform or execution stack.
         </p>
 
         <p>
-          Core specifications, schemas, threat models, and documentation are
-          intended to remain publicly accessible so they can be adopted,
-          tested, criticised, and extended across ecosystems.
-        </p>
-
-        <p>
-          Downstream implementations, assurance methods, certification layers,
-          and validation services may evolve separately from the open core.
-        </p>
-
-        <p>
-          The public grammar is open. The full architecture may include
-          additional models, implementation pathways, and assurance layers
-          beyond this repository.
+          Concrete bindings, carriers, validators and downstream implementations
+          may evolve separately. They should not quietly redefine the semantic
+          Core.
         </p>
       </section>
 
-          <section class="card">
+      <section class="card">
         <h2>Links</h2>
 
         <ul>
           <li>
             <a href="https://github.com/Sugarlicks/silt-identity-core" rel="noopener">
-              GitHub repository
+              SILT Core repository
             </a>
           </li>
-
           <li>
             <a href="https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.1" rel="noopener">
-              SILT Core v0.1 release
+              Previous public release: SILT Core v0.1
             </a>
           </li>
-
           <li>
             <a href="https://github.com/Sugarlicks/silt-identity-core/blob/main/docs/overview.md" rel="noopener">
-              Project overview
+              Project documentation
             </a>
           </li>
-
           <li>
             <a href="https://github.com/Sugarlicks/silt-identity-core/tree/main/spec" rel="noopener">
-              Specification drafts
+              Specifications
             </a>
           </li>
-
-          <li>
-            <a href="https://github.com/Sugarlicks/silt-identity-core/tree/main/docs" rel="noopener">
-              Documentation
-            </a>
-          </li>
-
           <li>
             <a href="https://paragraph.com/@garethfarry" rel="noopener">
-              Essays and research on authority, identity, and lawful digital action
+              Essays and research
             </a>
           </li>
-
           <li>
-            <a href="mailto:garethfakhry@gmail.com">
-              Contact
-            </a>
+            <a href="mailto:garethfakhry@gmail.com">Contact</a>
           </li>
         </ul>
       </section>
@@ -415,20 +283,6 @@
       <footer class="footer">
         <p>© <span id="y"></span> SILT Core. Open infrastructure, spec-first.</p>
       </footer>
-
-     <section class="card">
-<p>
-  SILT Core is currently being developed as an open
-  specification-first framework. Further work is underway to refine the
-  semantic layer, expand interoperability mappings, and explore
-  downstream implementation pathways.
-</p>
-  <p>
-    <a href="https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.1" target="_blank" rel="noopener">
-      View on GitHub →
-    </a>
-  </p>
-</section>
     </main>
 
     <script>

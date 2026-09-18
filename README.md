@@ -110,11 +110,23 @@ SILT makes normative difference legible. It does not guarantee agreement between
 
 ## Why this matters
 
-Digital systems increasingly connect actors who do not share one source of law, authority, identity or legitimacy. This includes Indigenous and customary orders, private agreements, institutions, commercial systems, DAOs, AI agents and technical protocols.
+Digital systems increasingly connect people, collectives and institutions whose Standing arises from different legal, cultural, customary, relational and technical orders.
 
-The hard problem is not simply identifying everyone or granting more permissions. It is preserving enough meaning at the boundary for an encounter to proceed without requiring one order to absorb another.
+These encounters rarely take place on neutral ground.
 
-That is the layer SILT Core v0.2 specifies.
+Most digital infrastructure recognises Participants through a narrow set of familiar forms: the individual account, the credential holder, the state-issued identity or the incorporated legal person.
+
+These forms may be valid within their own systems. Problems arise when they are treated as the only forms through which a person or collective can become legible.
+
+Standing grounded in relationship, collective recognition, place, history, obligation or living Authority may then be flattened into a credential or severed from the Source that gives it meaning. What cannot be translated into the receiving system’s categories may be treated as absent, informal or invalid.
+
+A credential may therefore be technically valid while the Standing behind it is no longer current. A collective may recognise a representative through its own relationships and processes, while another institution applies different conditions for accepting that representation. Two orders may encounter the same claim differently without either becoming universally authoritative. An AI agent may possess the capability to act without having the Authority to do so.
+
+These are not simply authentication problems. They concern whose categories become infrastructure, whose Standing becomes recognisable, and what meaning is lost in the act of translation.
+
+SILT begins from a different premise: Participants should not have to surrender their sources of meaning in order to interact.
+
+It makes the minimum relevant relational conditions legible at the encounter while allowing different orders to remain different.
 
 ---
 

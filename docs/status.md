@@ -12,6 +12,19 @@ The close-out introduced no new Core object and did not reopen the architectural
 
 The v0.2 architecture now treats the encounter as its conceptual centre, with one or more Profile Expressions able to inform evaluation without becoming part of the architectural seam itself.
 
+## Worked encounters and implementation bridge
+
+The frozen architecture was pressure-tested through four worked encounters spanning:
+
+- transferable instruments
+- credential-carried institutional Standing
+- plural and collective Authority
+- recursive AI delegation
+
+These encounters did not identify a recurring missing semantic concept requiring the Core to be reopened.
+
+They now provide the bridge into bounded implementation work, including institutional delegation and collective Authority encounters. Implementation choices remain distinct from the semantic Core and must not quietly redefine it.
+
 ## Evaluation model
 
 A SILT-conformant evaluation may return:

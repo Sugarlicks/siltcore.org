@@ -1,29 +1,32 @@
-# SILT Core Specification
+# SILT Core Specification Materials
 
-Version: v0 (draft)
+## Status
 
-This directory contains the evolving normative specification for SILT Core.
+The SILT Core v0.2 semantic architecture is finalised and frozen.
 
-SILT Core defines a semantic layer for modelling authority, consent, delegation, and revocation in digital systems.
+This website repository is **not** the canonical specification repository. The `/spec` directory remains only as a signpost from the project’s earlier public structure. No separate “v0 draft” specification is maintained here.
 
-The specification focuses on clarifying the conditions under which an actor may:
+The canonical SILT Core specification and release materials are published through:
 
-• act  
-• bind themselves or others  
-• delegate authority  
-• express consent  
-• revoke authority  
+- [Sugarlicks/silt-identity-core](https://github.com/Sugarlicks/silt-identity-core)
+- [SILT Core releases](https://github.com/Sugarlicks/silt-identity-core/releases)
 
-The project is specification-first. Implementation is intentionally deferred.
+Until the v0.2 release tag is published, v0.1 remains the currently tagged public release.
 
-Future specification modules may include:
+## Architectural orientation
 
-• authority and capacity primitives  
-• consent expression models  
-• delegation and mandate structures  
-• revocation mechanisms  
-• threat models and misuse cases  
+The settled v0.2 seam is:
 
-The specification will evolve through iterative drafts and external review.
+> Source → Standing → Presentation → evaluation at the encounter
 
-Related documentation can be found in the `/docs` directory.
+SILT Core models the relational semantic conditions surrounding encounters across plural legal, cultural, customary, private, institutional and technical orders.
+
+It is semantically thick and operationally thin. Authentication, credential formats, key management, runtime policy, technical capability and execution machinery remain below or adjacent to the SILT semantic layer.
+
+For the current orientation material in this repository, see:
+
+- [Documentation index](../docs/index.md)
+- [Architecture overview](../docs/overview.md)
+- [Current status](../docs/status.md)
+
+**Do not treat this directory as an independent normative source.**

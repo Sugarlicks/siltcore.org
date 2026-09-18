@@ -10,6 +10,8 @@ The settled architectural seam is:
 
 SILT is concerned with encounter rather than assimilation.
 
+These encounters rarely take place on neutral ground. Digital infrastructure commonly recognises Participants through forms such as an individual account, credential holder, state-issued identity or incorporated legal person. SILT preserves the possibility that Source-grounded relational and collective Standing can become legible without being reduced to those forms or severed from the relationships that give it meaning.
+
 The v0.2 architecture is **semantically frozen**. Release packaging and publication work are underway; v0.1 remains the currently tagged public GitHub release until v0.2 is published.
 
 ## Core orientation

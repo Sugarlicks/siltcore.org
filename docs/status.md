@@ -1,22 +1,39 @@
 # Current Status
 
-Specification version: v0 (draft)
+## SILT Core v0.2
 
-The current phase of the project focuses on specification development rather than implementation.
+The **SILT Core v0.2 semantic architecture is finalised and frozen**.
 
-Published work includes:
+The semantic freeze follows completion of the pre-freeze adversarial test programme and preserves the settled architectural seam:
 
-• normative specification drafts
-• threat model and misuse cases
-• minimal validation schemas
+> Source → Standing → Presentation → evaluation at the encounter
 
-Implementation is intentionally deferred.
+The close-out introduced no new Core object and did not reopen the architectural seam.
 
-The project aims to establish a clear semantic layer that can be adopted by multiple downstream implementations rather than creating a single canonical application.
+The v0.2 architecture now treats the encounter as its conceptual centre, with one or more Profile Expressions able to inform evaluation without becoming part of the architectural seam itself.
 
-Future work may include:
+## Evaluation model
 
-• expanded threat modelling
-• additional schema validation tools
-• reference implementations
-• interoperability mappings with existing identity standards
+A SILT-conformant evaluation may return:
+
+- `SATISFIED`
+- `NOT_SATISFIED`
+- `INDETERMINATE`
+
+SILT does not infer unstated legal, cultural, institutional or normative rules to manufacture a determinate answer.
+
+Where bounded expression would materially distort a condition, SILT Core does not require that condition to be forced into evaluation.
+
+## Publication status
+
+The v0.2 semantic architecture is frozen, but the **v0.2 GitHub release tag has not yet been published**.
+
+Current work therefore concerns release packaging, migration of public documentation and repository materials, copy-editing, publication-level naming, and alignment of implementation artefacts with the frozen architecture.
+
+Until that release is published, **v0.1 remains the currently tagged public release**.
+
+## Architectural boundary
+
+SILT Core remains specification-first, implementation-neutral and deliberately thin about authentication, credentials, key management, transport, runtime policy, dynamic authorisation and execution machinery.
+
+Downstream implementations may authenticate, authorise and execute. SILT preserves the semantic thread explaining what those actions mean.

@@ -1,42 +1,45 @@
 # SILT Core
 
-Specification v0.1 – Draft
+**Semantic infrastructure for plural encounters.**
 
-SILT Core is a spec-first identity infrastructure project focused on formalising status, standing, authority, consent, delegation, and revocation as enforceable primitives.
+SILT Core v0.2 provides a semantic architecture through which participants, collectives and systems operating under different legal, cultural, customary, private, institutional or technical orders may become mutually legible at moments of encounter without requiring those orders to collapse into a single ontology or surrender their own sources of authority.
 
-Rather than delivering an application or platform, SILT defines a semantic layer that many civic, governance, and commercial systems implicitly depend on but rarely specify.
+The settled architectural seam is:
 
-The specification focuses on clarifying the conditions under which an identity holder may:
+> Source → Standing → Presentation → evaluation at the encounter
 
-• act  
-• bind themselves or others  
-• delegate authority  
-• express consent  
-• revoke authority  
+SILT is concerned with encounter rather than assimilation.
 
-SILT Core draws on long-standing private-law concepts such as agency, mandate, and reliance, translating them into technology-agnostic primitives that can be adopted by diverse digital systems.
+The v0.2 architecture is **semantically frozen**. Release packaging and publication work are underway; v0.1 remains the currently tagged public GitHub release until v0.2 is published.
 
-The current phase establishes:
+## Core orientation
 
-• normative specifications  
-• threat models  
-• misuse cases  
-• validation schemas  
+SILT Core is:
 
-Implementation is intentionally deferred. The project is designed to be adopted, critiqued, or extended by multiple downstream systems across different legal and cultural contexts.
+- semantically thick and operationally thin
+- implementation-neutral
+- plural by design
+- concerned with relational Standing rather than universal Status
+- explicit about semantic non-inference
+- designed to preserve meaning across technical and institutional hand-off
 
----
+One or more **Profile Expressions** may inform evaluation at an encounter. They are bounded, selective expressions of encounter-relevant conditions and do not capture, exhaust or encumber the normative or relational substrates from which they arise.
+
+Evaluation may concern Standing and, where relevant, Evidence, Authority, Consent, Reliance, Action, Attribution, Revocation and Obligation.
+
+Evaluation outcomes are:
+
+- `SATISFIED`
+- `NOT_SATISFIED`
+- `INDETERMINATE`
+
+SILT Core does not force every condition into machine evaluation and does not manufacture legitimacy by inference.
 
 ## Documents
 
-Overview  
-overview.md
+- [Overview](overview.md)
+- [Current status](status.md)
+- [Bitcoin relevance](bitcoin.md)
+- [Ethereum relevance](ethereum.md)
 
-Bitcoin relevance  
-bitcoin.md
-
-Ethereum relevance  
-ethereum.md
-
-Current status  
-status.md
+For the main public specification repository, see [Sugarlicks/silt-identity-core](https://github.com/Sugarlicks/silt-identity-core).

@@ -20,7 +20,9 @@ The semantic freeze introduces no new Core object and preserves the settled move
 
 > Source → Standing → Presentation → evaluation at the encounter
 
-Release packaging, repository migration and publication work are now underway. Until a v0.2 GitHub release tag is published, **v0.1 remains the currently tagged public release**.
+**[SILT Core v0.2.0](https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.2.0) was published on 23 September 2026** and is the current public release.
+
+The tagged release provides a stable, citable snapshot of the semantic architecture, conformance suite, governance and licensing materials. SILT Core v0.1 remains available as the previous public release.
 
 ---
 
@@ -146,8 +148,11 @@ An agent with a wallet is not the same thing as an agent with Standing.
 - [Current status](docs/status.md)
 - [Website](https://siltcore.org)
 - [SILT Core repository](https://github.com/Sugarlicks/silt-identity-core)
+- [SILT Core v0.2.0 release](https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.2.0)
+- [Tagged v0.2.0 semantic architecture](https://github.com/Sugarlicks/silt-identity-core/blob/v0.2.0/spec/SILT_Core_v0.2.0_Semantic_Architecture.md)
+- [Tagged v0.2.0 documentation](https://github.com/Sugarlicks/silt-identity-core/tree/v0.2.0/docs)
 
-The canonical v0.2 semantic architecture is being packaged for publication in the SILT Core repository.
+The v0.2.0 tag is the stable public release snapshot. The repository’s main branch may continue to evolve.
 
 ---
 

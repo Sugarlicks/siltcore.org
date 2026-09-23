@@ -12,7 +12,7 @@ SILT is concerned with encounter rather than assimilation.
 
 These encounters rarely take place on neutral ground. Digital infrastructure commonly recognises Participants through forms such as an individual account, credential holder, state-issued identity or incorporated legal person. SILT preserves the possibility that Source-grounded relational and collective Standing can become legible without being reduced to those forms or severed from the relationships that give it meaning.
 
-The v0.2 architecture is **semantically frozen**. Release packaging and publication work are underway; v0.1 remains the currently tagged public GitHub release until v0.2 is published.
+The v0.2 architecture is **semantically frozen**. **[SILT Core v0.2.0](https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.2.0) was published on 23 September 2026** and is the current public release. v0.1 remains available as the previous release.
 
 ## Core orientation
 
@@ -44,4 +44,4 @@ SILT Core does not force every condition into machine evaluation and does not ma
 - [Bitcoin relevance](bitcoin.md)
 - [Ethereum relevance](ethereum.md)
 
-For the main public specification repository, see [Sugarlicks/silt-identity-core](https://github.com/Sugarlicks/silt-identity-core).
+For the canonical public materials, see the [SILT Core repository](https://github.com/Sugarlicks/silt-identity-core), [v0.2.0 release](https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.2.0) and [tagged semantic architecture](https://github.com/Sugarlicks/silt-identity-core/blob/v0.2.0/spec/SILT_Core_v0.2.0_Semantic_Architecture.md).

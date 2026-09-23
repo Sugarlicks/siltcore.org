@@ -10,6 +10,8 @@ The canonical SILT Core specification and release materials are published throug
 
 - [Sugarlicks/silt-identity-core](https://github.com/Sugarlicks/silt-identity-core)
 - [SILT Core v0.2.0 release](https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.2.0)
+- [SILT Core v0.2.0 version DOI](https://doi.org/10.5281/zenodo.22908026)
+- [Citation metadata and concept DOI](https://github.com/Sugarlicks/silt-identity-core/blob/main/CITATION.md)
 - [Tagged v0.2.0 semantic architecture](https://github.com/Sugarlicks/silt-identity-core/blob/v0.2.0/spec/SILT_Core_v0.2.0_Semantic_Architecture.md)
 - [Tagged v0.2.0 documentation](https://github.com/Sugarlicks/silt-identity-core/tree/v0.2.0/docs)
 

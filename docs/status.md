@@ -48,7 +48,10 @@ The tagged release provides the stable, citable snapshot of:
 - the minimal semantic conformance schema and suite
 - the interim governance, contribution, IPR, trademark and conformance-claim policies
 
-SILT Core v0.1 remains available as the previous public release. A DOI will be added when the tagged release has been archived.
+SILT Core v0.1 remains available as the previous public release.
+
+**Version DOI:** [10.5281/zenodo.22908026](https://doi.org/10.5281/zenodo.22908026)  
+**Concept DOI:** [10.5281/zenodo.22908025](https://doi.org/10.5281/zenodo.22908025)
 
 ## Architectural boundary
 

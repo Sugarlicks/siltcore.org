@@ -44,4 +44,4 @@ SILT Core does not force every condition into machine evaluation and does not ma
 - [Bitcoin relevance](bitcoin.md)
 - [Ethereum relevance](ethereum.md)
 
-For the canonical public materials, see the [SILT Core repository](https://github.com/Sugarlicks/silt-identity-core), [v0.2.0 release](https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.2.0) and [tagged semantic architecture](https://github.com/Sugarlicks/silt-identity-core/blob/v0.2.0/spec/SILT_Core_v0.2.0_Semantic_Architecture.md).
+For the canonical public materials, see the [SILT Core repository](https://github.com/Sugarlicks/silt-identity-core), [v0.2.0 release](https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.2.0), [version DOI](https://doi.org/10.5281/zenodo.22908026) and [tagged semantic architecture](https://github.com/Sugarlicks/silt-identity-core/blob/v0.2.0/spec/SILT_Core_v0.2.0_Semantic_Architecture.md).

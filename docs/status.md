@@ -14,14 +14,14 @@ The v0.2 architecture now treats the encounter as its conceptual centre, with on
 
 ## Worked encounters and implementation bridge
 
-The frozen architecture was pressure-tested through four worked encounters spanning:
+The published v0.2.0 minimal semantic conformance suite contains four base encounters and 30 adversarial variants spanning:
 
 - transferable instruments
 - credential-carried institutional Standing
 - plural and collective Authority
 - recursive AI delegation
 
-These encounters did not identify a recurring missing semantic concept requiring the Core to be reopened.
+The conformance programme did not identify a recurring missing semantic concept requiring the Core to be reopened.
 
 They now provide the bridge into bounded implementation work, including institutional delegation and collective Authority encounters. Implementation choices remain distinct from the semantic Core and must not quietly redefine it.
 
@@ -39,11 +39,16 @@ Where bounded expression would materially distort a condition, SILT Core does no
 
 ## Publication status
 
-The v0.2 semantic architecture is frozen, but the **v0.2 GitHub release tag has not yet been published**.
+**[SILT Core v0.2.0](https://github.com/Sugarlicks/silt-identity-core/releases/tag/v0.2.0) was published on 23 September 2026** and is the current public release.
 
-Current work therefore concerns release packaging, migration of public documentation and repository materials, copy-editing, publication-level naming, and alignment of implementation artefacts with the frozen architecture.
+The tagged release provides the stable, citable snapshot of:
 
-Until that release is published, **v0.1 remains the currently tagged public release**.
+- the [v0.2.0 semantic architecture](https://github.com/Sugarlicks/silt-identity-core/blob/v0.2.0/spec/SILT_Core_v0.2.0_Semantic_Architecture.md)
+- the [v0.2.0 documentation set](https://github.com/Sugarlicks/silt-identity-core/tree/v0.2.0/docs)
+- the minimal semantic conformance schema and suite
+- the interim governance, contribution, IPR, trademark and conformance-claim policies
+
+SILT Core v0.1 remains available as the previous public release. A DOI will be added when the tagged release has been archived.
 
 ## Architectural boundary
 
